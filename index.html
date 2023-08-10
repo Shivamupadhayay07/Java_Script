@@ -81,28 +81,87 @@
         //     console.log("odd")
         // }
 
-        let a=prompt("enter a symbol")
+        // let a=prompt("enter a symbol")
 
-        if ((a>='a' && a<='z') ||  (a>='A' && a<='Z'))
-        {
-            console.log(" alphabet")
-        }
+        // if ((a>='a' && a<='z') ||  (a>='A' && a<='Z'))
+        // {
+        //     console.log(" alphabet")
+        // }
         // else if (a>=A || A<=z)
         // {
         //     console.log("alphabet")
 
         // }
 
-        else if (a>=0 || a<0 )
+        // else if (a>=0 || a<0 )
+        // {
+        //     console.log("number")
+
+        // }
+
+        // else{
+        //    console.log( "special symbol")
+        // }
+
+        // let i=1
+        // n=prompt("enter a number ")
+        // while(i<=n/2)
+        // {
+        //     console.log(i)
+        //     i=i+1    
+        // }
+        
+
+        // let i=1
+        // n=prompt("enter a number ")
+        // while(i<=n)
+        // {
+        //     if(i==n/2+1)
+        //     {
+        //         break
+        //     }
+        //     else
+        //     {
+        //         console.log(i)
+        //     }
+           
+        //     i=i+1    
+        // }
+        
+        // let i=0
+        // n=prompt("enter a number ")
+        // while(i<=n)
+        // {
+        //     if(i%2==0)
+        //     {
+        //         console.log(i,"even")
+                
+        //         i++
+        //     }
+
+        //     else
+        //     {
+        //         console.log(i,"odd" )
+                
+        //         i++
+        //     }
+            
+        // }
+        
+        n=prompt("enetr the input")
+        let count =0
+        let sum =0
+        while(n>0)
         {
-            console.log("number")
+            let x =n%10
+            n=parseInt(n/10)
+            sum=sum+x
+
+            count++
 
         }
-
-        else{
-           console.log( "special symbol")
-        }
-
+        console.log(count)
+        console.log(sum)
 
     </script>
 </body>
